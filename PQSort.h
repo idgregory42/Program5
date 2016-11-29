@@ -8,10 +8,18 @@ class PQSort
 {
 	private:
 	
+		/*
+			Pre: N/A
+			Post: Sorts the array
+		*/
 		static void _pqSort(T** items, int num_items, bool min_or_max, int (*compare_item)(T* one, T* two), int (*compare_key) (String* key, T* item));
 		
 	public:
 		
+		/*
+			Pre:  The array needs more that one element
+			Post: A sorted array is returned
+		*/
 		static T** pqSort(T** items, int num_items, bool min_or_max, int (*compare_item)(T* one, T* two), int (*compare_key) (String* key, T* item));
 };
 

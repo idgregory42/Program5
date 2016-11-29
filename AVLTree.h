@@ -5,8 +5,8 @@
 #if !defined (AVLTREE_H)
 #define AVLTREE_H
 
-#include "2110/GUI/Drawable.h"
 #include "AVLTreeIterator.h"
+#include "2110/GUI/Drawable.h"
 #include "2110/GUI/Line.h"
 
 #include "String.h"
